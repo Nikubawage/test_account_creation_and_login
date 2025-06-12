@@ -53,5 +53,4 @@ Page Object Model (POM)
 ✍️ Author
 Nikita Bawage
 Automation Test Engineer
-Email: surawarnikita@gmail.com
 GitHub: @Nikubawage
