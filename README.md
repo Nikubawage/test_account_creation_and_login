@@ -16,41 +16,11 @@ This repository contains a Selenium + Python automation framework using **Behave
 
 ---
 
-## 📂 Project Structure
-
-test_account_creation_and_login/
-│
-├── features/
-│ ├── account.feature # Gherkin scenarios
-│ └── steps/
-│ └── account_steps.py # Step definitions with screenshot capture
-│
-├── pages/
-│ ├── home_page.py # Home page actions
-│ ├── login_page.py # Login page interactions
-│ └── create_account_page.py # Account creation interactions
-│
-├── utils/
-│ └── driver_factory.py # WebDriver initialization logic
-│
-├── screenshots/ # Screenshots after create + login
-│ ├── after_account_creation_<timestamp>.png
-│ └── after_login_<timestamp>.png
-│
-├── requirements.txt # Required packages
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
 ## 🧪 Running the Tests
 
 1. ✅ Install dependencies:
 
-```bash
+bash
 pip install -r requirements.txt
 ✅ Run the test with Behave:
 
